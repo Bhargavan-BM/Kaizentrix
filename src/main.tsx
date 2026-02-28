@@ -1,10 +1,14 @@
 import { createRoot } from "react-dom/client";
-import { HashRouter } from "react-router-dom";   // 👈 ADD THIS
+import { HashRouter } from "react-router-dom";
 import App from "./app/App";
 import "./styles/index.css";
 
-createRoot(document.getElementById("root")!).render(
-  <HashRouter>   {/* 👈 WRAP APP */}
-    <App />
-  </HashRouter>
-);
+const rootElement = document.getElementById("root");
+
+if (rootElement) {
+  createRoot(rootElement).render(
+    <HashRouter>
+      <App />
+    </HashRouter>
+  );
+}
