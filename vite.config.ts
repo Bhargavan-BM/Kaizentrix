@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 export default defineConfig({
-  base: "/Kaizentrix/",  // 👈 IMPORTANT for GitHub Pages
+  base: '/',  // 👈 IMPORTANT for GitHub Pages
 
   plugins: [
     react(),
