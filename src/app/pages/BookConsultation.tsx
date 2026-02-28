@@ -154,7 +154,7 @@ export function BookConsultation() {
                         <Input
                           id="phone"
                           type="tel"
-                          placeholder="+1 (555) 123-4567"
+                          placeholder="080-23143355"
                           value={formData.phone}
                           onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         />
@@ -325,7 +325,7 @@ export function BookConsultation() {
                   <p>
                     <span className="font-semibold">Phone:</span>{" "}
                     <a href="tel:+15551234567" className="text-primary hover:underline">
-                      +1 (555) 123-4567
+                      080-23143355
                     </a>
                   </p>
                   <p>

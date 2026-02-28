@@ -35,12 +35,12 @@ export function Contact() {
     {
       icon: MapPin,
       title: "Headquarters",
-      details: ["123 Innovation Drive", "Tech Park, Silicon Valley", "CA 94025, United States"],
+      details: ["100 DC Complex", "ChandraLayout, Vijayanagar", "Bengaluru, Karnataka 560056"],
     },
     {
       icon: Phone,
       title: "Phone",
-      details: ["+1 (555) 123-4567", "+1 (555) 765-4321"],
+      details: ["080-23143355"],
     },
     {
       icon: Mail,
@@ -56,10 +56,10 @@ export function Contact() {
 
   const officeLocations = [
     {
-      city: "San Francisco",
-      country: "United States",
-      address: "123 Innovation Drive, Tech Park",
-      phone: "+1 (555) 123-4567",
+      city: "Bengaluru",
+      country: "India",
+      address: "100, D C complex, 80 feet road,Chandralayout, Vijayanagar,Bengaluru, Karnataka 560056",
+      phone: "080 23143355",
     },
     {
       city: "London",
