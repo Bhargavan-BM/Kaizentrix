@@ -88,7 +88,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start space-x-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span>123 Innovation Drive, Tech Park, Silicon Valley, CA 94025</span>
+                <span>100 DC Complex,ChandraLayout,Vijayanagar,Bengaluru, Karnataka 560056</span>
               </li>
               <li className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 flex-shrink-0" />

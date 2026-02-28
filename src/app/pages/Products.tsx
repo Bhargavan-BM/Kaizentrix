@@ -76,7 +76,7 @@ export function Products() {
     },
     {
       icon: Activity,
-      name: "Cloud Monitoring Dashboards",
+      name: "Monitoring Dashboards",
       tagline: "Unified Observability",
       description: "Comprehensive monitoring and observability platform for multi-cloud environments.",
       features: [

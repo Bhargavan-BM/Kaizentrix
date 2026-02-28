@@ -285,7 +285,7 @@ export function Home() {
               </Button>
             </Link>
             <Link to="/book-consultation">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+              <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90">
                 Schedule a Call
               </Button>
             </Link>
